@@ -1,0 +1,32 @@
+.tasks-and-tags-container {
+  padding: 1em;
+  padding-top: 5em;
+  background-color: #000000;
+  color: #f1f5f9;
+}
+.tags-list-wrapper {
+  margin-bottom: 2em;
+}
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+}
+.tag-item {
+  cursor: pointer;
+  border: 1px solid #f3aa4e;
+  padding: 0.3em 0.7em;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+.active-tag-item {
+  background-color: #f3aa4e;
+  color: #18141b;
+}
+.task-item {
+  background-color: #18141b;
+  padding-inline: 1em;
+  display: flex;
+  justify-content: space-between;
+}
